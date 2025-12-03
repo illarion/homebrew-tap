@@ -3,7 +3,7 @@ cask "lockenv" do
   name "lockenv"
   desc "Simple, CLI-friendly secret storage"
   homepage "https://github.com/illarion/lockenv"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lockenv" do
   on_macos do
     on_intel do
       url "https://github.com/illarion/lockenv/releases/download/v#{version}/lockenv_#{version}_darwin_amd64.tar.gz"
-      sha256 "ba35d567f59aa71326c4e6b895ac28544015644b0c2c09ebca7313eb20b6678b"
+      sha256 "72a2ccd115047ea6861b3fc7fa1d6efe7632d34c2b87bade70c13804bc244f47"
     end
     on_arm do
       url "https://github.com/illarion/lockenv/releases/download/v#{version}/lockenv_#{version}_darwin_arm64.tar.gz"
-      sha256 "9d1aced9a08c34b77e335426f1e4665577f9de738810a3913d98d952f690aa21"
+      sha256 "4e2b31ac3e888805df77432e88c517b14cc1f2ebccf9b77c5084621004217aec"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/illarion/lockenv/releases/download/v#{version}/lockenv_#{version}_linux_amd64.tar.gz"
-      sha256 "7f9c91f4931f31c91fbaf1e335c02a5dec0ffc37892d55274bfe30f926a90ff5"
+      sha256 "ed83bc5c1409bed4005b0e39837f4477ba6851cc68c6f15b7795ea0a59c1275c"
     end
     on_arm do
       url "https://github.com/illarion/lockenv/releases/download/v#{version}/lockenv_#{version}_linux_arm64.tar.gz"
-      sha256 "66438af4567fad4e8174b700254a0afb0fbc9f4223c1adf5366596b4ad2c0a83"
+      sha256 "f7e53cae44d4eaf9dd74abccf9a79da7c2ebf342e6651ef0c3badd330ad3e831"
     end
   end
 
